@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                   &copy; 2019 Online Library Management System |<a href="https://github.com/kumarpandule2000" target="_blank"  > Designed by : Kumar Pandule</a> 
+                   &copy; 2025 Libralink: A library Management System |<a href="https://github.com/kumarpandule2000" target="_blank"  > Designed by : CKC IT Students</a> 
                 </div>
 
             </div>
