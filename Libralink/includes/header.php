@@ -1,3 +1,9 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+
 <div class="navbar navbar-inverse set-radius-zero" >
         <div class="container">
             <div class="navbar-header">
@@ -32,9 +38,9 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a href="dashboard.php" class="menu-top-active">DASHBOARD</a></li>
-                           
                           
-   <li>
+                      <li><a href="booksearch.php">Search</a></li>                
+  <li>
                                 <a href="#" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown"> Account <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="my-profile.php">My Profile</a></li>
@@ -42,6 +48,7 @@
                                 </ul>
                             </li>
                             <li><a href="issued-books.php">Issued Books</a></li>
+
                           
 
                         </ul>
@@ -59,7 +66,8 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">                        
                           
-  <li><a href="adminlogin.php">Admin Login</a></li>
+                        
+                         <li><a href="adminlogin.php">Admin Login</a></li>
                             <li><a href="signup.php">User Signup</a></li>
                              <li><a href="index.php">User Login</a></li>
                           
@@ -73,3 +81,5 @@
     </section>
 
     <?php } ?>
+
+    

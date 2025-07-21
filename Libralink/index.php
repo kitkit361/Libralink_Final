@@ -50,7 +50,7 @@ echo "<script>alert('Invalid Details');</script>";
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Libralink| </title>
+    <title>Libralink </title>
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME STYLE  -->
@@ -77,7 +77,7 @@ echo "<script>alert('Invalid Details');</script>";
 <div class="row">
 <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
 <div class="panel panel-info">
-<div class="panel-heading">
+<div class="panel-heading"> 
  LOGIN FORM
 </div>
 <div class="panel-body">

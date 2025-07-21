@@ -55,7 +55,7 @@ if(isset($_POST['signup'])) {
                 <div class="col-md-12">
                     <h4 class="header-line">Student Signup</h4>
                 </div>
-            </div>
+            </div> 
 
             <?php if($_SESSION['errmsg']!="") { ?>
             <div class="row">
